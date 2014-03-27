@@ -1,0 +1,22 @@
+<div class="container-header header">
+	<div class="header-div">
+		<!--<div class="header-pic-div">
+			<a href="{{ page.base_url }}"><img id="profile-pic" src="{{ page.base_url }}static/img/profile-pic.jpg"></a>
+		</div>-->
+		<div class="header-info-div">
+			<div class="header-name">
+				<a id="name" href="{{ page.base_url }}">Quinn<br>Romanek</a>
+			</div>
+			<div class="header-blurb">
+				Software Engineer
+			</div>
+			<nav class="sidebar-nav">
+			<ul class="nav nav-pills nav-stacked">
+					<li><a class="{% if page.slug == 'about' %}active{% endif %}" href="{{ page.base_url }}">Home</a></li>
+					<li><a class="{% if page.slug == 'projects' %}active{% endif %}" href="{{ page.base_url }}projects">Projects</a></li>
+					<li><a class="{% if page.slug == 'resume' %}active{% endif %}" href="{{ page.base_url }}resume">Resume</a></li>
+			</ul>
+			</nav>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,18 @@
+<div id="topNav">
+	<nav class="main-nav">
+		<ul>
+			<li>
+				<a class="{% if page.slug == "about" %}active{% endif %}" href="{{ page.base_url }}">About</a>
+			</li>
+			<li class="middot"> &middot; </li>
+			<li>
+				<a class="{% if page.slug == "project" %}active{% endif %}" href="{{ page.base_url }}projects">Projects</a>
+			</li>
+			<li class="middot"> &middot; </li>
+			<li>
+				<a class="{% if page.slug == "resume" %}active{% endif %}" href="{{ page.base_url }}resume">Resume</a>
+			</li>
+		</ul>
+		<div class="page-divider"></div>
+	</nav>
+</div>

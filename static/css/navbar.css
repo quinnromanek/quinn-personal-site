@@ -1,0 +1,54 @@
+/*-----Overriding Bootstrap---------------------------------------------------*/
+.navbar {
+    border-radius: 0 !important;
+    border-width: 0 !important;
+}
+
+.navbar-nav .navbar-button:hover,
+.navbar-nav .navbar-button:active {
+    color: #000;
+}
+
+.navbar-nav .navbar-button.active {
+    background-color: #999;
+    color: #fff;
+}
+
+.navbar-nav li {
+    text-align: center;
+}
+
+.navbar-nav {
+}
+
+/*-----Navigation Bar---------------------------------------------------------*/
+
+.navbar-skin {
+    background: #fff;
+}
+
+.navbar-nav .navbar-button {
+    color: #000;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    padding: 18px 26px;
+    font-size: 20px;
+}
+.navbar-nav .navbar-button:hover {
+    background-color: #999;
+    color: #fff;
+}
+.navbar-icon {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.navbar-collapse-text {
+    font-size: 15px;
+    line-height: 16px;
+}
+.navbar .navbar-toggle {
+    border-color: #fff !important;
+}
+
+
+/*----------------------------------------------------------------------------*/;
