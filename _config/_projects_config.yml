@@ -37,6 +37,15 @@ projects:
         On the frontend, it supports an interactive floor-plan of the house that uses the excellent [d3.js](http://d3js.org) 
         for SVG manipulation.
 
+    - name: This Site
+      url:
+      repo:
+      youtube:
+      images:
+      description: >
+        This site was created using the static website generator, Jekyll.  Props to [Aleks Kamko](http://alekskamko.com) for some
+        of the code and all of the inspiration.
+
     - name: Middle School Flash games
       url:
       repo:
