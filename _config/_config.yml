@@ -1,4 +1,5 @@
 name: Quinn Romanek 
 pygments: true
 static: /static
+markdown: redcarpet
 

@@ -1,0 +1,35 @@
+.project-image-div {
+	width: 100%;
+	display: block;
+	max-height: 640px;
+}
+
+.project-image-div ul {
+	white-space: nowrap;
+	margin: 0;
+	padding: 0;
+}
+
+.project-image-div a {
+	text-decoration: none;
+}
+
+.project-image-div ul li {
+	list-style: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.project-image {
+	max-height: 640px;
+	max-width: 100%;
+}
+
+.project-image:hover {
+	opacity: 0.8;
+}
+
+.hidden {
+	visibility: hidden;
+}

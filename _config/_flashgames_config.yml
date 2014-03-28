@@ -1,0 +1,28 @@
+flashgames:
+
+    - name: Jorno Wars
+      swf: jornowars.swf
+      description: > 
+        Top-down shooter game.
+        P1 uses the arrow keys, space to shoot, and m to change weapon.
+        P2 uses WASD, q to shoot, and e to change weapon.
+
+    - name: The Lemon Game 
+      swf: lemon.swf
+      description: >
+        Adventure game.  It's not possible to beat it via the rules, but it can be exploited.
+
+    - name: The Lemon Game 2
+      swf: lemon2.swf
+      description: >
+        Demo of the Lemon Game's sequel.  Only has a few levels, but it's more playable than the original.
+
+    - name: Jorno Battle
+      swf: jornobattle.swf
+      description: > 
+        Two player fighting game.  
+
+    - name: Superball
+      swf: superball.swf
+      description: >
+        Timing-based game.  Try to get the ball to the target.

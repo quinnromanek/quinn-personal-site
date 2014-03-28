@@ -4,6 +4,7 @@
 			{% include head.html %}
 	</head>		
 	<body>
+	<div>
 		<div class="col-md-4 sidebar-container">
 		{% include sidebar.html %}
 		</div>
@@ -12,10 +13,12 @@
 
 		{% include nav-bar.html %}
 
-		<div class="container-content">
-			{{ content }}
+			<div class="container-content">
+				{{ content }}
+			</div>
 		</div>
 	</div>
+		{% include footer.html %}
 	
 	</body>
-		</html>
+</html>

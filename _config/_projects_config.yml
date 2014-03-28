@@ -1,0 +1,49 @@
+projects:
+
+    - name: YHB Ultimate
+      url:
+      repo:
+      youtube: "//www.youtube.com/embed/N2CscrLvZMo"
+      images:
+      description: >
+        Ultimate Frisbee video game I made for my Senior Project with [Shyam](https://www.linkedin.com/profile/view?id=260402610).
+        I worked on the code while Shyam created the animations and models in Blender.  The game is made using
+        Unity3D, and has realistic offensive and defensive AI.  The teams included in the game represent
+        the teams present at the 2012 Virginia High School state championships.  There is also head to head
+        online gameplay using Unity's built in networking libraries. 
+
+    - name: Dynasty
+      url: 
+      repo:
+      youtube:
+      images:
+        - dynasty0.png
+        - dynasty1.png
+      description: >
+        Basketball simulation game that was one of my first coding projects.  It uses the fairly obscure
+        [Golden T Game Engine](http://goldenstudios.or.id/products/GTGE/) and has some colorful ASCII art. 
+        Players and teams are randomly generated, and games are decided by weighted dice rolls.  This project
+        was my first experience with Java and really taught me a lot of ins and outs of the language.
+
+    - name: Room Draw Simulator
+      url:
+      repo: https://github.com/quinnromanek/roomdraw
+      youtube:
+      images:
+        - roomdraw0.png
+      description: >
+        The Room Draw Simulator is a full stack web application to facilitate the process of who gets which
+        room in the house.  On the backend, it consists of a http and websocket server written in C and implementing [libwebsockets](http://libwebsockets.org/trac/libwebsockets).
+        On the frontend, it supports an interactive floor-plan of the house that uses the excellent [d3.js](http://d3js.org) 
+        for SVG manipulation.
+
+    - name: Middle School Flash games
+      url:
+      repo:
+      youtube:
+      images:
+      description: >
+        My first ever coding experience was making several Flash games in 7th-8th grade on the school computers.
+        Looking back, most of them are pretty bad and some are unplayable, but they still hold a special place
+        in my heart.  If you're interested, you can check them out [here](../flashgames). They are all in .swf format.
+

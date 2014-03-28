@@ -5,6 +5,6 @@ slug: about
 base_url: "./"
 ---
 
-#About {.page-header}
+#About 
 
 Placeholder about.
