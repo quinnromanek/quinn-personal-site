@@ -69,6 +69,12 @@ a:hover {
 
 /*----------------------------------------------------------------------------*/
 
+.sidebar-container {
+	border-right: 1px solid #dedede;
+	/*background-color: #fff;*/
+}
+/*----------------------------------------------------------------------------*/
+
 /*---------- Nav Bar ---------------------------------------------------------*/
 #topNav {
 	margin-top: 1em;
@@ -102,7 +108,7 @@ a:hover {
 	font-weight: normal;
 	font-style: normal;
 
-	background-color: #fff;
+	/*background-color: #fff;*/
 
 	-webkit-padding-start: 0;
 	padding: 0 0.8em;
@@ -120,7 +126,7 @@ a:hover {
 	text-decoration: none;
 	width: 100%;
 	display: block;
-	background-color: #fff;
+	/*background-color: #fff;*/
 	color: #000;
 	padding: 0 0.8em;
 	margin: 0 auto;
@@ -129,13 +135,13 @@ a:hover {
 
 #topNav nav li > a:hover {
 	border-radius: 8px;
-    background-color: #666;
-    color: #fff;
+    background-color: #000;
+    color: #dedede;
 }
 
 #topNav .active {
 	border-radius: 8px;
-	background-color: #999;
+	background-color: #000;
 	color: #fff;
 }
 
@@ -303,27 +309,29 @@ header[class*='mobile-']:after {
 
 #profile-pic {
 	width: 100%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    border-radius: 10%;
     border: 1px solid #000;
+    margin-left: auto;
+	margin-right: auto;
 }
 
 .sidebar-nav {
 	color:#000;
 }
 a .sidebar {
-	
+
 }
 
 .page-header {
 	padding-bottom: 9px;
 	margin-bottom: 20px;
-	border-bottom: 1px solid #000;
+	border-bottom: 0px solid #000;
 }
 
 .header {
-	background-color: #fff;
+/*	#background-color: #fff;*/
 }
 
 .header-info {
@@ -331,11 +339,10 @@ a .sidebar {
 }
 
 .header-name {
-	font-family: 'Helvetica Neue', 'Arial', sans-serif;
+	font-family: 'Courier Bold', 'Courier';
 	font-weight: 100;
-	letter-spacing: 4px;
+	letter-spacing: 2px;
 	font-size: 5.1em;
-	text-transform: lowercase;
 	margin-top: 44px;
 	margin-bottom: 38.5px;
 }
@@ -343,6 +350,9 @@ a .sidebar {
 .header-name a {
 	text-decoration: none;
 	color: #000;
+}
+.header-name a:hover {
+	color: #3d3d3d;
 }
 
 .header-blurb {
@@ -365,19 +375,22 @@ a .sidebar {
 }
 
 .icon-div {
+	font-family: 'Courier';
+	font-size: 2.0em;
 	width: 100%;
 	text-align: center;
-	letter-spacing: 0.7em;
-	margin-top: 1.8em;
+
+	/*letter-spacing: 0.7em;*/
+	margin-top: 1.0em;
 }
 
 .icon-div a {
-	color: #999;
+	color: #666;
 }
 
 .icon-div a:hover,
 .icon-div a:active {
-	color: #666;
+	color: #333;
 }
 
 .email-icon {
@@ -392,23 +405,28 @@ a .sidebar {
 
 @media (min-width: 769px) {
 	.header-div {
-		width: 700px;
-		height: 230px;
+		/*width: 700px;*/
 		margin: 0 auto;
+		text-align: center;
 	}
 	.header-pic-div {
+		margin-top: 30px;
+		margin-left: 0 auto;
+		margin-right: 0 auto;
 		width: 240px;
 		padding: 0 5px;
-		float: none;
-		display: block;
+		
+		display: inline-block !important;
+		clear: both; 
 	}
 	.header-info-div {
 		
 		padding: 0 5px;
 		line-height: 3.5em;
-		float: left;
+		float:left;
 		text-align: right;
-		display: block;
+		display: block !important; 
+		clear: both;
 	}
 }
 
@@ -416,6 +434,7 @@ a .sidebar {
 	#profile-pic {
 		width: 160px;
 		height: 160px;
+		
 	}
 	.tablet-center {
 		text-align: center;
